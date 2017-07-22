@@ -28,9 +28,11 @@ for information on how to create your developer account and assign an ID to
 this script for use.
 
 Then you will need to set,
+~~~~
   SPOTIPY_CLIENT_ID=''
   SPOTIPY_CLIENT_SECRET=''
   SPOTIPY_REDIRECT_URI=''
+~~~~
 on the command line to match what is set in your developer details for this
 application.
 
@@ -56,7 +58,9 @@ script.
 
 If configured correctly, running,
 
+~~~~
 $> python spotify.py your_spotify_username
+~~~~
 
 will open a browser window for you to allow access to your account for this
 script. If you proceed, you will be redirected to a URL. It won't matter that
@@ -71,7 +75,9 @@ directory for processing by that script.
 
 If configured correctly, running,
 
+~~~~
 $> python youtube.py --playlist name_of_playlist.csv
+~~~~
 
 will result in output showing which video files were found and added to the
 new playlist.
